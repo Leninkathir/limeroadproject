@@ -22,7 +22,7 @@ public class Addtocart {
 	public WebElement getvariant() {
 		return Variant;
 	}
-	@FindBy(xpath="//span[@id='size_30274823']")
+	@FindBy(xpath="//span[@id='size_30274873']")
 	private WebElement Size; 
 	public WebElement getSize() {
 		return Size;

@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-08-15T16:20:53.626Z",
+        "start_timestamp": "2023-08-17T18:28:09.006Z",
         "line": 3,
         "name": "To enter url",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 298944000,
+              "duration": 340221400,
               "status": "passed"
             },
             "line": 5,
@@ -32,7 +32,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-08-15T16:20:54.026Z",
+        "start_timestamp": "2023-08-17T18:28:09.505Z",
         "line": 7,
         "name": "To select product",
         "description": "",
@@ -42,7 +42,7 @@
         "steps": [
           {
             "result": {
-              "duration": 729627800,
+              "duration": 954671100,
               "status": "passed"
             },
             "line": 8,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 3046502300,
+              "duration": 3111185200,
               "status": "passed"
             },
             "line": 9,
@@ -66,9 +66,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//img[@data-src\u003d\u0027//img0.junaroad.com/stories/story_p_64c761aefd1d3c6f349bed3f-1691433372.jpeg\u0027]\"}\n  (Session info: chrome\u003d115.0.5790.171)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENIN-LAPTOP\u0027, ip: \u0027192.168.29.192\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\\Users\\lenin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 20f74b09a85c6f3898f87fd086145a01\n*** Element info: {Using\u003dxpath, value\u003d//img[@data-src\u003d\u0027//img0.junaroad.com/stories/story_p_64c761aefd1d3c6f349bed3f-1691433372.jpeg\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)\r\n\tat com.step.Stepdefinition.user_selects_the_model(Stepdefinition.java:33)\r\n\tat ✽.user selects the Model(file:///C:/Users/lenin/eclipse-workspace/Limeroad/src/test/java/com/feature/lime.feature:10)\r\n",
-              "duration": 3025190300,
-              "status": "failed"
+              "duration": 3109611300,
+              "status": "passed"
             },
             "line": 10,
             "name": "user selects the Model",
@@ -79,7 +78,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3069186200,
+              "status": "passed"
             },
             "line": 11,
             "name": "user selects the Variant",
@@ -90,7 +90,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3060183500,
+              "status": "passed"
             },
             "line": 12,
             "name": "user selects the Size",
@@ -101,7 +102,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3102902700,
+              "status": "passed"
             },
             "line": 13,
             "name": "user clicks add_to_cart",
